@@ -16,7 +16,7 @@ class Quotes(Resource):
             }
         }
 
-api.add_resource(Quotes, '/')
+api.add_resource(Quotes, '/testingRoute/')
 
 if __name__ == '__main__':
     app.run(debug=True)
